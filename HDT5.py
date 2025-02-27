@@ -90,6 +90,7 @@ def run_simu():
 
 run_simu()
 
+#Funcion de grafica de resultado.
 def plot_r():
     x, y, yerr = zip(*time_r)
     plt.errorbar(x, y, yerr=yerr, fmt='o', label = f'Intervalo {INTERVAL}')
