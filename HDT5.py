@@ -4,12 +4,13 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 
-#Variables de la simulación
+#Variables de la simulación y menú de opciones
+print("Configuración del simulador")
 RANDOM_SEED = 42
-INTERVAL = 10
-RAM_CAPACITY = 200
-CPU_SPEED = 3
-CPU_NUM = 1
+INTERVAL = int(input("Ingrese el intervalo de llegada de procesos: "))
+RAM_CAPACITY = int(input("Ingrese la capacidad de la RAM: "))
+CPU_SPEED = int(input("Ingrese la velocidad del CPU: "))
+CPU_NUM = int(input("Ingrese el numero de CPUS para llevar a cabo el proceso: "))
 
 class Process:
 
