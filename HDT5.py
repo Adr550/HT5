@@ -12,6 +12,13 @@ RAM_CAPACITY = int(input("Ingrese la capacidad de la RAM: "))
 CPU_SPEED = int(input("Ingrese la velocidad del CPU: "))
 CPU_NUM = int(input("Ingrese el numero de CPUS para llevar a cabo el proceso: "))
 
+#Mejor configuracion para reducir el tiempo de proceso.
+#RANDOM_SEED = 42
+#INTERVAL = 5
+#RAM_CAPACITY = 200
+#CPU_SPEED = 6
+#CPU_NUM = 2
+
 class Process:
 
     #Constructor con sus respectivos parametros utilizando self para acceder a atributos y metodos en una misma instancia de la clase Process
